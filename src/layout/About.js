@@ -4,7 +4,7 @@ import {Col, Row} from "antd";
 import '../styles/about.css';
 import { Zoom, Fade, Bounce } from 'react-reveal';
 import Button from "../components/Button";
-import {FolderOpenOutlined} from "@ant-design/icons";
+import {FolderOpenOutlined, FolderOpenTwoTone} from "@ant-design/icons";
 
 function About() {
     const [show, setShow] = useState(false);
